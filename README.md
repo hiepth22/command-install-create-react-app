@@ -6,7 +6,7 @@ npx create-react-app name-of-your-project
 -- Run : npm start
 
 ### Tạo một dự án react với vite
-npm create vite@latest name-of-your-project -- --template react
+npm create vite@latest name-of-your-project -- --template react sh```
 
 -- Run : npm run dev
 
