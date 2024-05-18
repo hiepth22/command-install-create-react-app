@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Command Copier</title>
+    <style>
+        .command {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .command input {
+            width: 500px;
+            padding: 5px;
+            font-size: 14px;
+        }
+        .command button {
+            margin-left: 10px;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Git Commands with Copy Buttons</h1>
+
+    <div class="command">
+        <input type="text" value="git add ." readonly id="cmd1">
+        <button onclick="copyToClipboard('cmd1')">Copy</button>
+    </div>
+    <div class="command">
+        <input type="text" value="git commit -m &quot;Your commit message&quot;" readonly id="cmd2">
+        <button onclick="copyToClipboard('cmd2')">Copy</button>
+    </div>
+    <div class="command">
+        <input type="text" value="git push origin main" readonly id="cmd3">
+        <button onclick="copyToClipboard('cmd3')">Copy</button>
+    </div>
+    <div class="command">
+        <input type="text" value="git push -u origin main" readonly id="cmd4">
+        <button onclick="copyToClipboard('cmd4')">Copy</button>
+    </div>
+    <div class="command">
+        <input type="text" value="git fetch origin" readonly id="cmd5">
+        <button onclick="copyToClipboard('cmd5')">Copy</button>
+    </div>
+    <div class="command">
+        <input type="text" value="git pull origin main" readonly id="cmd6">
+        <button onclick="copyToClipboard('cmd6')">Copy</button>
+    </div>
+
+    <script>
+        function copyToClipboard(id) {
+            var copyText = document.getElementById(id);
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /* For mobile devices */
+            document.execCommand("copy");
+            alert("Copied: " + copyText.value);
+        }
+    </script>
+
+</body>
+</html>
