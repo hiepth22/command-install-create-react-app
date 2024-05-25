@@ -31,3 +31,9 @@ npm install bootstrap@v5.3.3
 #### Cài react-moment (dùng để validating, formatting dates, parsing , ...)
 
 npm i moment
+
+#### Cài đặt ant-design 
+
+npm install antd --save
+
+npm i @ant-design/icons ## Thư viện icon của antd , tham khảo : https://ant.design/components/icon
