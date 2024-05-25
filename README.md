@@ -32,9 +32,9 @@ npm install bootstrap@v5.3.3
 
 npm i moment
 
-#### Cài đặt ant-design 
+#### Cài đặt ant-design - Thư viện icon của antd , tham khảo : https://ant.design/components/icon
 
 npm install antd --save
 
 npm i @ant-design/icons 
-## Thư viện icon của antd , tham khảo : https://ant.design/components/icon
+Thư viện icon của antd , tham khảo : https://ant.design/components/icon
