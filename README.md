@@ -1,5 +1,7 @@
 # command-install-create-react-app
 
+# Tham khảo website npm package : https://www.npmjs.com/
+
 ### Tạo 1 dự án react-app bình thường
 npx create-react-app name-of-your-project
 
@@ -12,5 +14,16 @@ npm create vite@latest name-of-your-project -- --template react
 
 (@latest sẽ tự động lấy phiên bản mới nhất)
 
-### Cài đặt react-router-dom
+#### Cấu hình dự án
+
+# Cài đặt react-router-dom
+
 npm install react-router-dom localforage match-sorter sort-by
+
+# Cài react-hook-form (thư viện giúp quản lý và xác thực các form trong ứng dụng React)
+
+npm install react-hook-form
+
+# Cấu hình bootstrap (dành cho form bootstrap, tùy phiên bản và nhu cầu sử dụng)
+
+npm install bootstrap@v5.3.3
