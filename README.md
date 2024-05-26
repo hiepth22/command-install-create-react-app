@@ -38,3 +38,30 @@ npm install antd --save
 
 npm i @ant-design/icons 
 Thư viện icon của antd
+
+#### Cài đặt font-awesome 
+
+npm i @fortawesome/fontawesome-free
+
+#### Cài react-toastify
+
+npm install react-toastify
+
+#### Cài sweetalert2
+
+npm install sweetalert2
+
+#### Cài date-fns, dayjs cấu hình ngày - giờ (javascript)
+
+npm install date-fns
+
+npm install dayjs
+
+#### Cài đặt axios
+
+npm install axios
+
+
+
+
+
