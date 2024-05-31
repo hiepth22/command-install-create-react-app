@@ -34,12 +34,14 @@ npm i moment
 
 #### Cài đặt ant-design - Thư viện icon của antd , tham khảo : https://ant.design/components/icon
 
-npm install react-icons --save
-
 npm install antd --save
 
 npm i @ant-design/icons 
 Thư viện icon của antd
+
+#### Hoặc sử dụng icon của react 
+
+npm install react-icons --save
 
 #### Cài đặt font-awesome 
 
